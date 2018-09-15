@@ -1,0 +1,22 @@
+/*styling for education manual*/
+.container1{
+	border:5px black;
+	background-color: black;
+	opacity: 0.8;
+	margin:60px 0 0 0;
+	padding: 20px;
+	max-width: 100%;
+	height:100vh;
+	overflow: hidden;
+	color: white;
+}
+
+/* styling for image*/
+.container1 img{
+	display: flex;
+	clear: both;
+	overflow: hidden;
+	width: 20vw;
+	height: 40vh;
+	border:3px green;
+}

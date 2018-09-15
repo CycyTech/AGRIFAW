@@ -1,0 +1,184 @@
+/*Title /heading section design*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.head{
+	font-family: Georgia;
+	margin:80px;
+	padding:0;
+	text-align: center;
+	list-style-type: none;
+	max-width: 100%;
+	height: 50vh;
+	color:black;
+	font-size: 3em;
+
+}
+
+/*general body design*/
+body{
+	min-height: 100%;
+	background-image: url(corn.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+/*Navigation bar design*/
+
+.nav{
+	background-color:none;
+		padding:2px;
+		margin: 0;
+		list-style-type: none;
+		text-align:right;
+		list-style-type: none;
+		position: static;
+}
+/*<a> tag design*/
+a{
+text-decoration: none;
+color: black;
+
+}
+
+
+.nav li {
+	display: inline-flex;
+	color: white;
+
+font-size: 20px;
+padding-left: 20px;
+padding-right: 20px;
+font-family: times new roman;
+list-style-type: none;
+
+}
+
+.nav li:hover{
+	background-color: white;
+	border-radius: 30px;
+}
+
+/*SEARCH BOX DESIGN*/
+
+.search{
+        float: right;
+
+     }
+
+     .searchbox{
+        border-radius: 10px;
+
+     }
+
+     .button{
+    border-radius: 70px;
+    border-style: ridge;
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+/*FAW NEWS FLASH*/ 
+.contentt{
+	display: inline-flex;
+	background-color:rgba(255,255,255, 0.7);
+	
+
+}
+
+.section1{
+	height: 50%;
+	width: 50%;
+	margin: 10px;
+	padding: 5px;
+	color: white;
+	display: inline-flex;
+	background-color: green;
+	opacity: 0.8;
+	text-align: left;
+}
+
+.section1 img{
+	overflow: hidden;
+	clear: right;
+	width: 30%;
+	height: 20%;	
+}
+
+
+ /*FAW survey*/
+.sidebar{
+border:3px green;
+padding:0;
+margin:auto;
+clear:right;
+text-align: center;
+width:50%;
+height:50%;
+background-color: yellow;
+color:red;
+opacity:0.8;
+}
+
+
+/*FAW MEDIA ZONE*/
+.section2{
+	max-width: 100%;
+	max-height: 50%;
+	margin: auto;
+	padding: 5px;
+	text-align: center;
+	border:3px green;
+	background-color: black;
+	opacity: 0.9;
+	color: white;
+    
+}
+
+.section2 img{
+	overflow: hidden;
+	clear: right;
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	width: 20vw;
+	height: 30vh;
+
+
+}
+
+/*ABOUT US 'AGRIFAW'*/
+
+.section3{
+	max-height: 30%;
+	max-width: 100%;
+	margin: auto;
+	padding: 5px;
+	color: white;
+	background-color: black;
+	opacity: 0.6;
+	text-align: center;
+	text-decoration-style: none; 
+}
+
+/* styling for footer*/
+
+footer {
+    padding:1em;
+      color: white;
+        background-color: grey;
+          clear:left; 
+              text-align:center; 
+              clear: both;
+}
+
+
+#contactinfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
